@@ -4,9 +4,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta property="og:site_name" content="Waifu Finder"/>
+    <meta property="og:title" content="Waifu Finder Survey"/>
+    <meta property="og:description" content="Matches you to your waifu"/>
+    <meta property="og:image" content="/images/waifuFinder_social.jpg">
+    <meta property="ogi:url" content="http://bessygmartinez.github.io/WaifuFinder"/>
+    <meta property="og:type" content="game"/>
+    <link rel="icon" href="/img/waifu_favicon.png" type="image/gif" sizes="32x32">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WAIFU FINDER - The Survey</title>
 </head>
 <body>
-    
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top pt-5"></nav>
+	<div class="container">
+		<h1 class="long-shadow pt-0 mt-5 font-weight-bold font-italic">Waifu Finder Survey</h1>
+		<p>Take the survey to find your waifu!</p>
+		<p>Rate each statement from 1 to 5, with 1 being something you strongly disagree with and 5 being
+			something you strongly agree with.</p>
+		
+		<form>
+			<div class="form-group">
+				<input id="name" type="text" class="form-control" placeholder="Name (Required)">
+			</div>
+			<div class="form-group">
+				<input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
+			</div>
+			<div class="form-group">
+				<label for="question1">I love adventure!</label>
+				<select class="form-control" id="question1">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question2">I prefer to let my partner take control.</label>
+				<select class="form-control" id="question2">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question3">I am attracted to broody people.</label>
+				<select class="form-control" id="question3">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question4">Women who can shoot guns are pretty attractive to me.</label>
+				<select class="form-control" id="question4">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question5">I love a girl who can sword fight!</label>
+				<select class="form-control" id="question5">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question6">I prefer to be around people who are happy and bubbly.</label>
+				<select class="form-control" id="question6">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question7">I would love to travel to a new world/dimension.</label>
+				<select class="form-control" id="question7">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question8">Bold women make me nervous.</label>
+				<select class="form-control" id="question8">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question9">I consider myself a leader, not a follower.</label>
+				<select class="form-control" id="question9">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question10">I prefer sweet over savory foods.</label>
+				<select class="form-control" id="question10">
+					<option value="empty"></option>
+					<option value="1">1 (Strongly Disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (Strongly Agree)</option>
+				</select>
+			</div>
+		</form>
+		<div class="text-center mb-5">
+			<button id="submitBtn" type="submit" class="btn btn-dark btn-lg">Submit ❤</button>
+		</div>
+		
+		<!-- Modal after survey completion -->
+		<div id="waifuModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title text-center">Your Waifu is...</h3>
+						<button type="button" class="close" data-dismiss="modal">
+						</button>						
+					</div>
+					<div class="modal-body text-center">
+						<h2 id="waifu"></h2>
+						<img id="waifuPhoto" src="#" class="img-fluid border border-secondary modal-img">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Modal if survey incomplete -->
+		<div  id="surveyIncompleteModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog"\>
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h3 class="modal-title text-center">Please Complete the Survey!</h3>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  </button>
+				</div>
+				<div class="modal-body text-center">
+					<img src="https://66.media.tumblr.com/tumblr_lyc8p0WfWj1rn95k2o1_500.gif" alt="Annoyed Usagi" title="Annoyed Usagi" class="img-fluid border border-secondary modal-img">
+				</div>
+				<div class="modal-footer text-right">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+          <footer class="footer fixed-bottom bg-dark">
+            <div class="container text-muted text-right">
+                <small>© 2019 Bessy G. Martinez<span>|</span> <a href="/api/waifus" class="text-muted">Waifu Finder API</a>
+                <span>|</span>
+                <a href="https://github.com/bessygmartinez/WaifuFinder" class="text-muted">GitHub Repo</a></small>
+            </div>
+        </footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<script type="text/javascript">
+	$("#submitBtn").on("click", function(event) {
+		event.preventDefault();
+		// Form validation
+		var valid = true;
+		if($("#name").val() === "" || $("#photo").val() === "") {
+			valid = false;
+		} else if($("#question1").val() === "empty" || $("#question2").val() === "empty" || $("#question3").val() === "empty" || $("#question4").val() === "empty" || $("#question5").val() === "empty" || $("#question6").val() === "empty" || $("#question7").val() === "empty" || $("#question8").val() === "empty" || $("#question9").val() === "empty" || $("#question10").val() === "empty") {
+			valid = false;
+		}
+		if(valid === true) {
+			var newUser = {
+				name: $("#name").val().trim(),
+				photo: $("#photo").val().trim(),
+				scores: [
+					$("#question1").val(),
+					$("#question2").val(),
+					$("#question3").val(),
+					$("#question4").val(),
+					$("#question5").val(),
+					$("#question6").val(),
+					$("#question7").val(),
+					$("#question8").val(),
+					$("#question9").val(),
+					$("#question10").val()
+				]
+			};
+			var currentURL = window.location.origin;
+			// Ajax call for receiving response after POST req
+			$.post(currentURL + "/api/waifus", newUser, function(data) {
+				$("#waifu").text(data.name);
+				$("#waifuPhoto").attr("src", data.photo);
+				$("#waifuModal").modal("toggle");
+			});
+		} else {
+			// If a required field is missing, show alert
+			$("#surveyIncompleteModal").modal("toggle");
+		}
+	});
+</script>
