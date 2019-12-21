@@ -97,3 +97,22 @@ span {
 	font-size: 20px;
 
 }
+
+.mira {
+	max-width: 375px;
+}
+
+@media only screen and (max-width: 414px) {
+	h1 {
+		font-size: 3em;
+	}
+	
+	.con{
+        max-width: 90%;   
+	}
+
+	.mira {
+		max-width: 100%;
+	}
+
+}
