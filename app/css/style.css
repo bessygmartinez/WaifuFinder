@@ -1,6 +1,38 @@
+* {
+	box-sizing: border-box;
+   }
+   *:before,
+   *:after {
+	box-sizing: border-box;
+   }
+
 body {
 	font-family: 'Roboto', sans-serif;
-    background: #FFF;
+	background: #FFF;
+	height: 100%;
+	position: relative;
+	background-image: url("https://i.pinimg.com/originals/8a/80/78/8a8078d885942d71179d447d7f669d89.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 20%;
+}
+
+nav {
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.con {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 100px;
+	background-color: #f4f4fc;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
 }
 
 h1 {
@@ -24,12 +56,14 @@ p {
 footer {
     text-align: right;
 	background: #fff;
-	padding: 30px;
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
 	margin-bottom:0;
-	padding:10px;
+	bottom:0;
+	position: absolute;
+	width: 100%;
+	padding: 20px;
 }
 
 .btn {
